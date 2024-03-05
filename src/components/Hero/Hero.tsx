@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import shophero from "../../assets/images/shophero.svg";
 import { CCarousel, CCarouselCaption, CCarouselItem } from "@coreui/react";
+import Button from "../Button/Button";
 
 const Hero = () => {
   return (
@@ -17,6 +18,7 @@ const Hero = () => {
               We know how large objects will act, but things on a small scale
               just do not act that way.
             </h4>
+            <Button />
           </CCarouselCaption>
         </CCarouselItem>
         <CCarouselItem>
@@ -29,6 +31,7 @@ const Hero = () => {
               We know how large objects will act, but things on a small scale
               just do not act that way.
             </h4>
+            <Button />
           </CCarouselCaption>
         </CCarouselItem>
         <CCarouselItem>
@@ -41,6 +44,7 @@ const Hero = () => {
               We know how large objects will act, but things on a small scale
               just do not act that way.
             </h4>
+            <Button />
           </CCarouselCaption>
         </CCarouselItem>
       </CCarousel>

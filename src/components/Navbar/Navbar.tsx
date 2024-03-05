@@ -10,7 +10,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="bg-blue-500 w-full h-20 flex items-center justify-center ">
+    <div className="bg-[#FFFFFF] w-full h-20 flex items-center justify-center ">
       <div className="z-50 px-5 py-5 md:w-auto w-full  flex justify-between">
         <h1 className="text-[#252B42]  font-bold text-[24px] cursor-pointer">
           Bandage
@@ -37,7 +37,7 @@ const Navbar = () => {
         <li>
           <a
             href="/"
-            className="px-2 text-[#737373] font-bold text-[14px] py-4"
+            className="px-2 text-[#737373] no-underline font-bold text-[14px] py-4"
           >
             Home
           </a>
@@ -46,7 +46,7 @@ const Navbar = () => {
         <li>
           <a
             href="/"
-            className="px-2 flex text-[#252B42] font-bold text-[14px] py-4"
+            className="px-2 flex text-[#252B42] no-underline font-bold text-[14px] py-4"
           >
             Shop
             <div className="text-[#252B42] ml-3">
@@ -58,7 +58,7 @@ const Navbar = () => {
         <li>
           <a
             href="/"
-            className="px-2 text-[#737373] font-bold text-[14px] py-4 "
+            className="px-2 text-[#737373] no-underline font-bold text-[14px] py-4 "
           >
             About
           </a>
@@ -67,7 +67,7 @@ const Navbar = () => {
         <li>
           <a
             href="/"
-            className="px-2 text-[#737373] font-bold text-[14px] py-4 "
+            className="px-2 text-[#737373] no-underline font-bold text-[14px] py-4 "
           >
             Blog
           </a>
@@ -76,7 +76,7 @@ const Navbar = () => {
         <li>
           <a
             href="/"
-            className="px-2 text-[#737373] font-bold text-[14px] py-4 "
+            className="px-2 text-[#737373] no-underline font-bold text-[14px] py-4 "
           >
             Contact
           </a>
@@ -85,7 +85,7 @@ const Navbar = () => {
         <li>
           <a
             href="/"
-            className="px-2 text-[#737373] font-bold text-[14px] py-4 "
+            className="px-2 text-[#737373] no-underline font-bold text-[14px] py-4 "
           >
             Pages
           </a>
@@ -123,14 +123,14 @@ const Navbar = () => {
       <div>
         <ul
           className={`
-        md:hidden bg-blue-500 z-[49] absolute  w-full button-0 py-24 pl-4
+        md:hidden bg-[#FFFFFF] z-[49] absolute  w-full button-0 py-24 pl-4
         duration-500 top-0 ${open ? "left-0" : "left-[-100vw]"}
         `}
         >
           <li>
             <a
               href="/"
-              className="px-3 text-[#737373] inline-block font-bold text-[14px]  py-4"
+              className="px-3 text-[#737373] no-underline inline-block font-bold text-[14px]  py-4"
             >
               Home
             </a>
@@ -139,7 +139,7 @@ const Navbar = () => {
           <li>
             <a
               href="/"
-              className="px-3  text-[#252B42] inline-block font-bold text-[14px]  py-4"
+              className="px-3  text-[#252B42] no-underline inline-block font-bold text-[14px]  py-4"
             >
               Shop
             </a>
@@ -148,7 +148,7 @@ const Navbar = () => {
           <li>
             <a
               href="/"
-              className="px-3 text-[#737373] inline-block font-bold text-[14px] py-4"
+              className="px-3 text-[#737373] no-underline inline-block font-bold text-[14px] py-4"
             >
               About
             </a>
@@ -157,7 +157,7 @@ const Navbar = () => {
           <li>
             <a
               href="/"
-              className="px-3 text-[#737373] inline-block font-bold text-[14px] py-4"
+              className="px-3 text-[#737373] no-underline inline-block font-bold text-[14px] py-4"
             >
               Blog
             </a>
@@ -166,7 +166,7 @@ const Navbar = () => {
           <li>
             <a
               href="/"
-              className="px-3 text-[#737373] inline-block font-bold text-[14px] py-4"
+              className="px-3 text-[#737373] no-underline inline-block font-bold text-[14px] py-4"
             >
               Contact
             </a>
@@ -175,7 +175,7 @@ const Navbar = () => {
           <li>
             <a
               href="/"
-              className="px-3 text-[#737373] inline-block font-bold text-[14px] py-4"
+              className="px-3 text-[#737373] no-underline inline-block font-bold text-[14px] py-4"
             >
               Pages
             </a>
