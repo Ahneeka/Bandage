@@ -3,6 +3,7 @@ import Items from "./components/Items/Items";
 import Navbar from "./components/Navbar/Navbar";
 import "@coreui/coreui/dist/css/coreui.min.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Products from "./components/Products/Products";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <Items />
+      <Products />
     </div>
   );
 }
