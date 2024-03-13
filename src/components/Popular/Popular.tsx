@@ -1,6 +1,10 @@
 import React from "react";
 import col from "../../assets/images/col.svg";
 import meat from "../../assets/images/meat.svg";
+import one from "../../assets/images/one.svg";
+import two from "../../assets/images/two.svg";
+import three from "../../assets/images/three.svg";
+import four from "../../assets/images/four.svg";
 
 const Popular = () => {
   return (
@@ -29,9 +33,62 @@ const Popular = () => {
               <p className="text-[#252B42] font-bold text-[14px] mb-4">
                 English Department
               </p>
+              <img src="" alt="" />
               <h5 className="text-[#BDBDBD] font-bold  text-[16px] ">
                 $16.48 <span className="text-[#23856D]">$6.48</span>
               </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="lg:flex justify-center gap-3 ">
+        <div className="md:ml-[18rem] ml-[8rem] lg:ml-0 mt-11 flex flex-col lg:flex-row">
+          <div className="mr-4 flex gap-3 mb-4">
+            <img src={one} alt="1" className="w-[28px] h-[50px]" />
+            <div className="flex-col">
+              <h6 className="font-bold text-[14px] text-[#252B42]">
+                Easy to use
+              </h6>
+              <p className="font-normal text-[12px] text-[#252B42] w-8/12">
+                Things on a very small that you have any direct
+              </p>
+            </div>
+          </div>
+
+          <div className="mr-4 flex gap-3 mb-4">
+            <img src={two} alt="1" className="w-[28px] h-[50px]" />
+            <div className="flex-col">
+              <h6 className="font-bold text-[14px] text-[#252B42]">
+                Easy to use
+              </h6>
+              <p className="font-normal text-[12px] text-[#252B42] w-8/12">
+                Things on a very small that you have any direct
+              </p>
+            </div>
+          </div>
+
+          <div className="mr-4 flex gap-3 mb-4">
+            <img src={three} alt="1" className="w-[28px] h-[50px]" />
+            <div className="flex-col">
+              <h6 className="font-bold text-[14px] text-[#252B42]">
+                Easy to use
+              </h6>
+              <p className="font-normal text-[12px] text-[#252B42] w-8/12">
+                Things on a very small that you have any direct
+              </p>
+            </div>
+          </div>
+
+          <div className="mr-4 flex gap-3 mb-4">
+            <img src={four} alt="4" className="w-[28px] h-[50px]" />
+            <div className="flex-col">
+              <h6 className="font-bold text-[14px] text-[#252B42]">
+                Easy to use
+              </h6>
+              <p className="font-normal text-[12px] text-[#252B42] w-8/12">
+                Things on a very small that you have any direct
+              </p>
             </div>
           </div>
         </div>
