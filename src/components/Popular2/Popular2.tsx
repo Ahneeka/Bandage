@@ -9,7 +9,7 @@ import Ellipse4 from "../../assets/images/Ellipse4.svg";
 
 const Popular2 = () => {
   return (
-    <div className="bg-[#FFFFFF] lg:w-[1440px] lg:h-[880px] lg:pt-[5rem] ">
+    <div className="bg-[#FFFFFF] lg:w-[1440px] lg:h-[880px]  lg:pt-[5rem]  ">
       <div className="lg:flex justify-center">
         <div className="lg:bg-[#FAFAFA] w-[401px] h-[784px] md:ml-[12rem] lg:ml-0 ">
           <div className="mt-[7rem] text-center ">

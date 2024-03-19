@@ -7,6 +7,8 @@ import Products from "./components/Products/Products";
 import Popular from "./components/Popular/Popular";
 import Product2 from "./components/Product2/product2";
 import Popular2 from "./components/Popular2/Popular2";
+import Brand from "./components/Brand/Brand";
+import Logos from "./components/Logos/Logos";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Popular />
       <Product2 />
       <Popular2 />
+      <Brand />
+      <Logos />
     </div>
   );
 }

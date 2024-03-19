@@ -8,7 +8,7 @@ import product3 from "../../assets/images/product3.svg";
 
 const Product2 = () => {
   return (
-    <div className="bg-[#FFFFFF] lg:w-[1440px] lg:h-[895px] h-[3111px] md:h-[3111px] ">
+    <div className="bg-[#FFFFFF] lg:w-[1440px] lg:h-[895px] h-[2777px] md:h-[3111px] ">
       <div className="lg:flex justify-center">
         <div className="lg:ml-10 lg:mt-[4rem] mt-[3rem]">
           <div className="lg:flex  gap-7 border-bottom-2 border-[#ECECEC] p-4 ">
