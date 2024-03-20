@@ -11,6 +11,7 @@ import Brand from "./components/Brand/Brand";
 import Logos from "./components/Logos/Logos";
 import Posts from "./components/Posts/Posts";
 import Consulting from "./components/Consulting/Consulting";
+import Info from "./components/Info/Info";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Logos />
       <Posts />
       <Consulting />
+      <Info />
     </div>
   );
 }
