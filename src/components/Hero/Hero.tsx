@@ -18,7 +18,7 @@ const Hero = () => {
               We know how large objects will act, but things on a small scale
               just do not act that way.
             </h4>
-            <Button />
+            <Button text="Start Now" />
           </CCarouselCaption>
         </CCarouselItem>
         <CCarouselItem>
@@ -31,7 +31,7 @@ const Hero = () => {
               We know how large objects will act, but things on a small scale
               just do not act that way.
             </h4>
-            <Button />
+            <Button text="Start Now" />
           </CCarouselCaption>
         </CCarouselItem>
         <CCarouselItem>
@@ -44,7 +44,7 @@ const Hero = () => {
               We know how large objects will act, but things on a small scale
               just do not act that way.
             </h4>
-            <Button />
+            <Button text="Start Now" />
           </CCarouselCaption>
         </CCarouselItem>
       </CCarousel>

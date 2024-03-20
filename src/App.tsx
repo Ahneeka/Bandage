@@ -9,6 +9,8 @@ import Product2 from "./components/Product2/product2";
 import Popular2 from "./components/Popular2/Popular2";
 import Brand from "./components/Brand/Brand";
 import Logos from "./components/Logos/Logos";
+import Posts from "./components/Posts/Posts";
+import Consulting from "./components/Consulting/Consulting";
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Popular2 />
       <Brand />
       <Logos />
+      <Posts />
+      <Consulting />
     </div>
   );
 }
